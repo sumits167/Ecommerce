@@ -102,7 +102,7 @@ if(check==0){
          });
          const data=await response.json();
          const options={
-          key: "rzp_test_Re0szKdA93kKdz", // Replace with your Razorpay test/live key
+          key: "Vite-razorPay-Key", // Replace with your Razorpay test/live key
           amount:data.amount, // Amount in paise (1 INR = 100 paise)
           currency:data.currency,
           name: "Port",
